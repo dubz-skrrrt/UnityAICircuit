@@ -2156,6 +2156,60 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 120399453}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+<<<<<<< HEAD
+=======
+--- !u!1 &123547165
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 123547167}
+  - component: {fileID: 123547166}
+  m_Layer: 0
+  m_Name: SwitchCam
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &123547166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 123547165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 815f4cce71d23dc42a92ed00f5e6ce0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cameraOne: {fileID: 963194225}
+  cameraTwo: {fileID: 649319245}
+  cameraThree: {fileID: 1925418224}
+  cameraFour: {fileID: 1326580511}
+  TimerOne: {fileID: 859855030}
+  TimerTwo: {fileID: 1559533444}
+  TimerThree: {fileID: 1815051858}
+  TimerFour: {fileID: 688515281}
+--- !u!4 &123547167
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 123547165}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 595, y: 268.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> parent of cdf8ed1 (Fixed switch cameras and race timer to their respective cars)
 --- !u!1 &128640519
 GameObject:
   m_ObjectHideFlags: 0
@@ -2688,7 +2742,15 @@ Transform:
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 57.63, y: 0, z: -25.81}
   m_LocalScale: {x: 1, y: 1, z: 1}
+<<<<<<< HEAD
   m_Children: []
+=======
+  m_Children:
+  - {fileID: 543450651589217147}
+  - {fileID: 543450653701224771}
+  - {fileID: 543450651703199201}
+  - {fileID: 543450651737873459}
+>>>>>>> parent of cdf8ed1 (Fixed switch cameras and race timer to their respective cars)
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
@@ -10472,6 +10534,92 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 342ed679b7fdef84b859f6564c5ad4a6, type: 3}
   m_PrefabInstance: {fileID: 646106569}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
+=======
+--- !u!1 &649319245
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 649319246}
+  - component: {fileID: 649319248}
+  - component: {fileID: 649319247}
+  m_Layer: 0
+  m_Name: Main Camera2
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &649319246
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 649319245}
+  m_LocalRotation: {x: 0.07648817, y: -0, z: -0, w: 0.99707055}
+  m_LocalPosition: {x: -1.5, y: 20, z: -32.7}
+  m_LocalScale: {x: 12.500001, y: 12.5, z: 12.500003}
+  m_Children: []
+  m_Father: {fileID: 543450653701224771}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 8.773, y: 0, z: 0}
+--- !u!81 &649319247
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 649319245}
+  m_Enabled: 1
+--- !u!20 &649319248
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 649319245}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 823
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+>>>>>>> parent of cdf8ed1 (Fixed switch cameras and race timer to their respective cars)
 --- !u!1001 &649873152
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11050,6 +11198,40 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 9b3b46c29f71f0f4a8b888bc5dca657d, type: 3}
   m_PrefabInstance: {fileID: 682492373}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
+=======
+--- !u!1 &688515281
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 688515282}
+  m_Layer: 0
+  m_Name: Racetimer4
+  m_TagString: timer
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &688515282
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 688515281}
+  m_LocalRotation: {x: -0, y: -1, z: -0, w: 0}
+  m_LocalPosition: {x: -1468.1199, y: 4060.7583, z: -858.2506}
+  m_LocalScale: {x: 12.5, y: 12.5, z: 12.5}
+  m_Children:
+  - {fileID: 1403694775}
+  m_Father: {fileID: 543450651737873459}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> parent of cdf8ed1 (Fixed switch cameras and race timer to their respective cars)
 --- !u!1001 &688797884
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14371,8 +14553,13 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 630400899}
+<<<<<<< HEAD
   m_Father: {fileID: 0}
   m_RootOrder: 12
+=======
+  m_Father: {fileID: 543450651589217147}
+  m_RootOrder: 8
+>>>>>>> parent of cdf8ed1 (Fixed switch cameras and race timer to their respective cars)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &867081287
 GameObject:
@@ -16185,7 +16372,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_LocalRotation: {x: 0.07648817, y: -0, z: -0, w: 0.99707055}
+<<<<<<< HEAD
   m_LocalPosition: {x: -1, y: 20.7, z: -33.3}
+=======
+  m_LocalPosition: {x: -1, y: 20, z: -33.3}
+>>>>>>> parent of cdf8ed1 (Fixed switch cameras and race timer to their respective cars)
   m_LocalScale: {x: 12.500003, y: 12.500001, z: 12.500001}
   m_Children: []
   m_Father: {fileID: 543450651589217147}
@@ -22252,6 +22443,92 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8785b07e06e2f70488004df98441f14d, type: 3}
   m_PrefabInstance: {fileID: 1321431754}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
+=======
+--- !u!1 &1326580511
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1326580512}
+  - component: {fileID: 1326580514}
+  - component: {fileID: 1326580513}
+  m_Layer: 0
+  m_Name: Main Camera4
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1326580512
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1326580511}
+  m_LocalRotation: {x: 0.07648817, y: -0, z: -0, w: 0.99707055}
+  m_LocalPosition: {x: -1.1499882, y: 20, z: -31.8}
+  m_LocalScale: {x: 12.500003, y: 12.5, z: 12.500004}
+  m_Children: []
+  m_Father: {fileID: 543450651737873459}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 8.773, y: 0, z: 0}
+--- !u!81 &1326580513
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1326580511}
+  m_Enabled: 1
+--- !u!20 &1326580514
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1326580511}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 823
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+>>>>>>> parent of cdf8ed1 (Fixed switch cameras and race timer to their respective cars)
 --- !u!1001 &1327069377
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25959,6 +26236,40 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 571d0419afec3674497a8e506a0e64e6, type: 3}
   m_PrefabInstance: {fileID: 1552531836}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
+=======
+--- !u!1 &1559533444
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1559533445}
+  m_Layer: 0
+  m_Name: Racetimer2
+  m_TagString: timer
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1559533445
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1559533444}
+  m_LocalRotation: {x: -0, y: -1, z: -0, w: 0}
+  m_LocalPosition: {x: -1493.9573, y: 4060.7083, z: -971.20056}
+  m_LocalScale: {x: 12.499999, y: 12.5, z: 12.499999}
+  m_Children:
+  - {fileID: 1503865017}
+  m_Father: {fileID: 543450653701224771}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> parent of cdf8ed1 (Fixed switch cameras and race timer to their respective cars)
 --- !u!1 &1562245740
 GameObject:
   m_ObjectHideFlags: 0
@@ -29848,6 +30159,40 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 804abc9e1e990424f952c8cc0d31f9d5, type: 3}
   m_PrefabInstance: {fileID: 1812676782}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
+=======
+--- !u!1 &1815051858
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1815051859}
+  m_Layer: 0
+  m_Name: Racetimer3
+  m_TagString: timer
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1815051859
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1815051858}
+  m_LocalRotation: {x: -0, y: -1, z: -0, w: 0}
+  m_LocalPosition: {x: -1494.0745, y: 4060.6582, z: -896.76324}
+  m_LocalScale: {x: 12.5, y: 12.5, z: 12.5}
+  m_Children:
+  - {fileID: 227087823}
+  m_Father: {fileID: 543450651703199201}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> parent of cdf8ed1 (Fixed switch cameras and race timer to their respective cars)
 --- !u!1001 &1820218839
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31143,6 +31488,92 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 804abc9e1e990424f952c8cc0d31f9d5, type: 3}
   m_PrefabInstance: {fileID: 1924022342}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
+=======
+--- !u!1 &1925418224
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1925418225}
+  - component: {fileID: 1925418227}
+  - component: {fileID: 1925418226}
+  m_Layer: 0
+  m_Name: Main Camera3
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1925418225
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1925418224}
+  m_LocalRotation: {x: 0.07648817, y: -0, z: -0, w: 0.99707055}
+  m_LocalPosition: {x: -1.5, y: 20, z: -33.2}
+  m_LocalScale: {x: 12.500003, y: 12.5, z: 12.500004}
+  m_Children: []
+  m_Father: {fileID: 543450651703199201}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 8.773, y: 0, z: 0}
+--- !u!81 &1925418226
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1925418224}
+  m_Enabled: 1
+--- !u!20 &1925418227
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1925418224}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 823
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+>>>>>>> parent of cdf8ed1 (Fixed switch cameras and race timer to their respective cars)
 --- !u!1 &1927059074
 GameObject:
   m_ObjectHideFlags: 0
@@ -33859,8 +34290,14 @@ Transform:
   - {fileID: 1734295702}
   - {fileID: 963194228}
   - {fileID: 525202086}
+<<<<<<< HEAD
   m_Father: {fileID: 0}
   m_RootOrder: 5
+=======
+  - {fileID: 859855031}
+  m_Father: {fileID: 157965507}
+  m_RootOrder: 0
+>>>>>>> parent of cdf8ed1 (Fixed switch cameras and race timer to their respective cars)
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!4 &543450651703199201
 Transform:
@@ -33901,8 +34338,15 @@ Transform:
   - {fileID: 9053301785747830086}
   - {fileID: 1590170422}
   - {fileID: 339595875}
+<<<<<<< HEAD
   m_Father: {fileID: 0}
   m_RootOrder: 7
+=======
+  - {fileID: 688515282}
+  - {fileID: 1326580512}
+  m_Father: {fileID: 157965507}
+  m_RootOrder: 3
+>>>>>>> parent of cdf8ed1 (Fixed switch cameras and race timer to their respective cars)
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!4 &543450653701224771
 Transform:
@@ -33922,8 +34366,15 @@ Transform:
   - {fileID: 9053301783751970870}
   - {fileID: 766033912}
   - {fileID: 1019974890}
+<<<<<<< HEAD
   m_Father: {fileID: 0}
   m_RootOrder: 4
+=======
+  - {fileID: 1559533445}
+  - {fileID: 649319246}
+  m_Father: {fileID: 157965507}
+  m_RootOrder: 1
+>>>>>>> parent of cdf8ed1 (Fixed switch cameras and race timer to their respective cars)
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!1 &894303156865566599
 GameObject:
