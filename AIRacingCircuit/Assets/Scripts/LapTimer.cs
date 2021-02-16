@@ -8,18 +8,20 @@ public class LapTimer : MonoBehaviour
     float time, totalTime;
     float mins, secs, millisecs;
     int lap = 0, prevLap = -1;
+    public GameObject[] lapTimeText;
     public GameObject raceTimer;
+    [SerializeField] GameObject totalTimeText;
 
-    Text[] lapTimeText;
-    Text totalTimeText;
 
     UnityStandardAssets.Utility.WaypointProgressTracker tracker;
 
     void Start()
     {
+        
         tracker = this.gameObject.GetComponent<UnityStandardAssets.Utility.WaypointProgressTracker>();
-        lapTimeText = raceTimer.GetComponentsInChildren<Text>();
-        totalTimeText = lapTimeText[lapTimeText.Length - 1];
+        lapTimeText = GameObject.FindGameObjectsWithTag("LapText");
+        totalTimeText = GameObject.FindGameObjectWithTag("TotalText");
+        raceTimer = GameObject.FindGameObjectWithTag("timer");
         raceTimer.SetActive(false);
     }
 
@@ -30,8 +32,8 @@ public class LapTimer : MonoBehaviour
         time += Time.deltaTime;
         totalTime += Time.deltaTime;
 
-        lapTimeText[lap].text = "Lap " + ((lap) + 1) + ": " + FormatTime(time);
-        totalTimeText.text = "Total: " + FormatTime(totalTime);
+        lapTimeText[lap].GetComponent<Text>().text = "Lap " + ((lap) + 1) + ": " + FormatTime(time);
+        totalTimeText.GetComponent<Text>().text = "Total: " + FormatTime(totalTime);
 
         if(tracker.progressDistance >= 630f){
             lap = ((int)tracker.progressDistance) / 630;
@@ -43,7 +45,6 @@ public class LapTimer : MonoBehaviour
             }
             Debug.Log(lap);
         }
-
     }
 
     string FormatTime(float t){

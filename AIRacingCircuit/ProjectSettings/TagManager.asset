@@ -8,6 +8,7 @@ TagManager:
   - LapText
   - TotalText
   - timer
+  - trackPath
   layers:
   - Default
   - TransparentFX
@@ -19,7 +20,7 @@ TagManager:
   - 
   - Layer 1
   - Layer 2
-  - 
+  - MINIMAP
   - 
   - 
   - 

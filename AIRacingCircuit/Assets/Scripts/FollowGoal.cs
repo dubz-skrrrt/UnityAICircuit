@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class FollowGoal : MonoBehaviour {
 
 	public Transform goal;
-	public float speed = 0;
+	float speed = 0;
 	float minSpeed = 0.0f;
 	float maxSpeed = 50.0f;
 	float brakeAngle = 60.0f;
@@ -17,8 +17,8 @@ public class FollowGoal : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		accel = Random.Range(4, 6);
-		decel = Random.Range(5, 7);
-		rotSpeed = Random.Range(10, 12);
+		decel = Random.Range(4, 6);
+		rotSpeed = Random.Range(8, 10);
 	}
 	
 	// Update is called once per frame
