@@ -9,7 +9,9 @@ public class CountdownTimer : MonoBehaviour
     float currentTime = 0f;
     float startingTime = 3f;
     
-    public GameObject racetimer;
+    public GameObject raceTimer;
+    public GameObject leaderboard;
+    public GameObject miniMap;
    
     [SerializeField] Text CountdownText;
 
@@ -30,7 +32,9 @@ public class CountdownTimer : MonoBehaviour
             currentTime = 1;
             CountdownText.enabled = false;
             Time.timeScale = 1;
-            racetimer.SetActive(true);
+            raceTimer.SetActive(true);
+            leaderboard.SetActive(true);
+            miniMap.SetActive(true);
             //  CountdownText.text  = currentTime.ToString("Go!");  
             // DisableText();        
         }

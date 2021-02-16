@@ -32506,7 +32506,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b7cec7bc2937374eb0dd5be90419b45, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  racetimer: {fileID: 859855030}
+  raceTimer: {fileID: 688515281}
+  leaderboard: {fileID: 0}
+  miniMap: {fileID: 471196164}
   CountdownText: {fileID: 259730185}
 --- !u!1001 &2038103727
 PrefabInstance:
