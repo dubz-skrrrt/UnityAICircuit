@@ -2156,8 +2156,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 120399453}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
-<<<<<<< HEAD
-=======
 --- !u!1 &123547165
 GameObject:
   m_ObjectHideFlags: 0
@@ -2209,7 +2207,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
->>>>>>> parent of cdf8ed1 (Fixed switch cameras and race timer to their respective cars)
 --- !u!1 &128640519
 GameObject:
   m_ObjectHideFlags: 0
@@ -2742,15 +2739,11 @@ Transform:
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 57.63, y: 0, z: -25.81}
   m_LocalScale: {x: 1, y: 1, z: 1}
-<<<<<<< HEAD
-  m_Children: []
-=======
   m_Children:
   - {fileID: 543450651589217147}
   - {fileID: 543450653701224771}
   - {fileID: 543450651703199201}
   - {fileID: 543450651737873459}
->>>>>>> parent of cdf8ed1 (Fixed switch cameras and race timer to their respective cars)
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
@@ -10534,8 +10527,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 342ed679b7fdef84b859f6564c5ad4a6, type: 3}
   m_PrefabInstance: {fileID: 646106569}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
-=======
 --- !u!1 &649319245
 GameObject:
   m_ObjectHideFlags: 0
@@ -10619,7 +10610,6 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
->>>>>>> parent of cdf8ed1 (Fixed switch cameras and race timer to their respective cars)
 --- !u!1001 &649873152
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11198,8 +11188,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 9b3b46c29f71f0f4a8b888bc5dca657d, type: 3}
   m_PrefabInstance: {fileID: 682492373}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
-=======
 --- !u!1 &688515281
 GameObject:
   m_ObjectHideFlags: 0
@@ -11231,7 +11219,6 @@ Transform:
   m_Father: {fileID: 543450651737873459}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
->>>>>>> parent of cdf8ed1 (Fixed switch cameras and race timer to their respective cars)
 --- !u!1001 &688797884
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14553,13 +14540,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 630400899}
-<<<<<<< HEAD
-  m_Father: {fileID: 0}
-  m_RootOrder: 12
-=======
   m_Father: {fileID: 543450651589217147}
   m_RootOrder: 8
->>>>>>> parent of cdf8ed1 (Fixed switch cameras and race timer to their respective cars)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &867081287
 GameObject:
@@ -16372,11 +16354,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_LocalRotation: {x: 0.07648817, y: -0, z: -0, w: 0.99707055}
-<<<<<<< HEAD
-  m_LocalPosition: {x: -1, y: 20.7, z: -33.3}
-=======
   m_LocalPosition: {x: -1, y: 20, z: -33.3}
->>>>>>> parent of cdf8ed1 (Fixed switch cameras and race timer to their respective cars)
   m_LocalScale: {x: 12.500003, y: 12.500001, z: 12.500001}
   m_Children: []
   m_Father: {fileID: 543450651589217147}
@@ -22443,8 +22421,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8785b07e06e2f70488004df98441f14d, type: 3}
   m_PrefabInstance: {fileID: 1321431754}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
-=======
 --- !u!1 &1326580511
 GameObject:
   m_ObjectHideFlags: 0
@@ -22528,7 +22504,6 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
->>>>>>> parent of cdf8ed1 (Fixed switch cameras and race timer to their respective cars)
 --- !u!1001 &1327069377
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26236,8 +26211,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 571d0419afec3674497a8e506a0e64e6, type: 3}
   m_PrefabInstance: {fileID: 1552531836}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
-=======
 --- !u!1 &1559533444
 GameObject:
   m_ObjectHideFlags: 0
@@ -26269,7 +26242,6 @@ Transform:
   m_Father: {fileID: 543450653701224771}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
->>>>>>> parent of cdf8ed1 (Fixed switch cameras and race timer to their respective cars)
 --- !u!1 &1562245740
 GameObject:
   m_ObjectHideFlags: 0
@@ -30159,8 +30131,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 804abc9e1e990424f952c8cc0d31f9d5, type: 3}
   m_PrefabInstance: {fileID: 1812676782}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
-=======
 --- !u!1 &1815051858
 GameObject:
   m_ObjectHideFlags: 0
@@ -30192,7 +30162,6 @@ Transform:
   m_Father: {fileID: 543450651703199201}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
->>>>>>> parent of cdf8ed1 (Fixed switch cameras and race timer to their respective cars)
 --- !u!1001 &1820218839
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31488,8 +31457,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 804abc9e1e990424f952c8cc0d31f9d5, type: 3}
   m_PrefabInstance: {fileID: 1924022342}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
-=======
 --- !u!1 &1925418224
 GameObject:
   m_ObjectHideFlags: 0
@@ -31573,7 +31540,6 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
->>>>>>> parent of cdf8ed1 (Fixed switch cameras and race timer to their respective cars)
 --- !u!1 &1927059074
 GameObject:
   m_ObjectHideFlags: 0
@@ -34290,14 +34256,9 @@ Transform:
   - {fileID: 1734295702}
   - {fileID: 963194228}
   - {fileID: 525202086}
-<<<<<<< HEAD
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
-=======
   - {fileID: 859855031}
   m_Father: {fileID: 157965507}
   m_RootOrder: 0
->>>>>>> parent of cdf8ed1 (Fixed switch cameras and race timer to their respective cars)
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!4 &543450651703199201
 Transform:
@@ -34338,15 +34299,10 @@ Transform:
   - {fileID: 9053301785747830086}
   - {fileID: 1590170422}
   - {fileID: 339595875}
-<<<<<<< HEAD
-  m_Father: {fileID: 0}
-  m_RootOrder: 7
-=======
   - {fileID: 688515282}
   - {fileID: 1326580512}
   m_Father: {fileID: 157965507}
   m_RootOrder: 3
->>>>>>> parent of cdf8ed1 (Fixed switch cameras and race timer to their respective cars)
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!4 &543450653701224771
 Transform:
@@ -34366,15 +34322,10 @@ Transform:
   - {fileID: 9053301783751970870}
   - {fileID: 766033912}
   - {fileID: 1019974890}
-<<<<<<< HEAD
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
-=======
   - {fileID: 1559533445}
   - {fileID: 649319246}
   m_Father: {fileID: 157965507}
   m_RootOrder: 1
->>>>>>> parent of cdf8ed1 (Fixed switch cameras and race timer to their respective cars)
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!1 &894303156865566599
 GameObject:
