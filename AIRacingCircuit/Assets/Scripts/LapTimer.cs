@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class LapTimer : MonoBehaviour
 {
+    public int distanceInt;
+
     float time, totalTime;
     float mins, secs, millisecs;
     int lap = 0, prevLap = -1;
@@ -27,15 +29,15 @@ public class LapTimer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        distanceInt = (int)tracker.progressDistance;
         time += Time.deltaTime;
         totalTime += Time.deltaTime;
 
         lapTimeText[lap].text = "Lap " + ((lap) + 1) + ": " + FormatTime(time);
         totalTimeText.text = "Total: " + FormatTime(totalTime);
 
-        if(tracker.progressDistance >= 630f){
-            lap = ((int)tracker.progressDistance) / 630;
+        if(distanceInt >= 630){
+            lap = (distanceInt) / 630;
 
             if(lap >= 3){
                 this.gameObject.SetActive(false);
