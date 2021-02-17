@@ -8,8 +8,8 @@ public class LapTimer : MonoBehaviour
     float time, totalTime;
     float mins, secs, millisecs;
     int lap = 0, prevLap = -1;
-    public GameObject raceTimer;
-
+    
+    GameObject raceTimer;
     Text[] lapTimeText;
     Text totalTimeText;
 
