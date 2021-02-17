@@ -6,14 +6,12 @@ using UnityEngine.SceneManagement;
 public class CheckCarLaps : MonoBehaviour
 {
     public GameObject[] cars;
-    int counterCars;
-
+     bool carChecker;
 
     // Start is called before the first frame update
     void Start()
     {
         cars = GameObject.FindGameObjectsWithTag("Racecar");
-        counterCars = 0;
     }
 
     // Update is called once per frame
@@ -23,18 +21,20 @@ public class CheckCarLaps : MonoBehaviour
     }
 
     void CheckFinishedLaps(){
-        
-
-        if (counterCars == 4){
-            Debug.Log("Cars finished: " + counterCars);
-            //SceneManager.LoadScene("ResultUserInterface");
-        }else {
-            for (var i =0; i < cars.Length; i++){
-                if (cars[i].GetComponent<LapTimer>().lap == 3){
-                    counterCars++;
-                    Debug.Log(counterCars);
+        for (var i =0; i < cars.Length; i++){
+            Debug.Log(cars[i].name + cars[i].GetComponent<LapTimer>().finishedRace);
+            if (cars[i].GetComponent<LapTimer>().lap == 3){
+                if (cars[i].GetComponent<LapTimer>().finishedRace){
+                    carChecker = true;
+                }else{
+                    carChecker = false;
+                    break;
                 }
             }
+        }
+        if (carChecker == true){
+            Debug.Log("Change");
+            SceneManager.LoadScene("ResultUserInterface");
         }
     }
 }

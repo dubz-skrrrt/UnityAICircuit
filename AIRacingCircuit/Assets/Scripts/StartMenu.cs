@@ -9,7 +9,7 @@ public class StartMenu : MonoBehaviour
   }
 
   public void PlayGame(){
-    Debug.Log("Start");
+    //Debug.Log("Start");
   }
 
   public void QuitGame(){
