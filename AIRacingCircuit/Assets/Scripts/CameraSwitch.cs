@@ -35,7 +35,7 @@ public class CameraSwitch : MonoBehaviour {
     
     void switchCamera()
     {
-        if (Input.GetKeyDown(KeyCode.D)){
+        if (Input.GetKeyDown(KeyCode.W)){
             pressnum = pressnum + 1;
             if (pressnum == 1){
                 StartCoroutine(TimeCoroutine());
@@ -88,7 +88,7 @@ public class CameraSwitch : MonoBehaviour {
                 pressnum = 3;   
             }
         }
-        else if (Input.GetKeyDown(KeyCode.A)){
+        else if (Input.GetKeyDown(KeyCode.S)){
             pressnum = pressnum - 1;
             if (pressnum == 0){
                 StartCoroutine(TimeCoroutine());
