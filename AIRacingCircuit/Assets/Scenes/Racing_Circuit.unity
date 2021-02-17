@@ -19953,7 +19953,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Cartags \nPress \"a\" and \"d\"  -->\nto move cars         "
+  m_Text: "Cartags \nPress \"W\" and \"S\"  -->\nto move cars         "
 --- !u!222 &1180738609
 CanvasRenderer:
   m_ObjectHideFlags: 0
