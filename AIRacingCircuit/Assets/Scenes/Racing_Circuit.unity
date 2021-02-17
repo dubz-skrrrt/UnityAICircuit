@@ -2973,6 +2973,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 157965507}
+  - component: {fileID: 157965508}
   m_Layer: 0
   m_Name: Cars
   m_TagString: Untagged
@@ -2998,6 +2999,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!114 &157965508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 157965506}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8b4fcbc27c109e49aa9be4e732e6f3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cars: []
 --- !u!1 &171786814
 GameObject:
   m_ObjectHideFlags: 0
@@ -36064,7 +36078,7 @@ GameObject:
   - component: {fileID: 919132147803621003}
   m_Layer: 0
   m_Name: raceCarWhite
-  m_TagString: Untagged
+  m_TagString: Racecar
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36099,6 +36113,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   distanceInt: 0
+  finishedRace: 0
+  lap: 0
 --- !u!1 &919132147919245761
 GameObject:
   m_ObjectHideFlags: 0
@@ -36113,7 +36129,7 @@ GameObject:
   - component: {fileID: 919132147919245764}
   m_Layer: 0
   m_Name: raceCarRed
-  m_TagString: Untagged
+  m_TagString: Racecar
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36169,6 +36185,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   distanceInt: 0
+  finishedRace: 0
+  lap: 0
 --- !u!1 &919132147963993947
 GameObject:
   m_ObjectHideFlags: 0
@@ -36183,7 +36201,7 @@ GameObject:
   - component: {fileID: 919132147963993950}
   m_Layer: 0
   m_Name: raceCarOrange
-  m_TagString: Untagged
+  m_TagString: Racecar
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36239,6 +36257,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   distanceInt: 0
+  finishedRace: 0
+  lap: 0
 --- !u!1 &919132149160928249
 GameObject:
   m_ObjectHideFlags: 0
@@ -36253,7 +36273,7 @@ GameObject:
   - component: {fileID: 919132149160928252}
   m_Layer: 0
   m_Name: raceCarGreen
-  m_TagString: Untagged
+  m_TagString: Racecar
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36309,6 +36329,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   distanceInt: 0
+  finishedRace: 0
+  lap: 0
 --- !u!4 &1278253905542331604
 Transform:
   m_ObjectHideFlags: 0

@@ -6,10 +6,12 @@ using UnityEngine.UI;
 public class LapTimer : MonoBehaviour
 {
     public int distanceInt;
-
+    public bool finishedRace;
+    public int lap = 0;
     float time, totalTime;
     float mins, secs, millisecs;
-    int lap = 0, prevLap = -1;
+    
+    int prevLap = -1;
     
     GameObject raceTimer;
     Text[] lapTimeText;
@@ -40,7 +42,10 @@ public class LapTimer : MonoBehaviour
             lap = (distanceInt) / 630;
 
             if(lap >= 3){
-                this.gameObject.SetActive(false);
+                finishedRace = true;
+                //this.gameObject.SetActive(false);
+                this.gameObject.GetComponentInChildren<LapTimer>().enabled = false;
+
             }
 
             if(lap > prevLap){
@@ -48,7 +53,7 @@ public class LapTimer : MonoBehaviour
                 prevLap = lap;
                 time = 0f;
             }
-            Debug.Log(lap);
+            
         }
 
     }
