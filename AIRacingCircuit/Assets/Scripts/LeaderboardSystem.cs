@@ -43,6 +43,7 @@ public class LeaderboardSystem : MonoBehaviour
             leaderboardText[2].text = "2nd: " + cars[carDistances.IndexOf(second)].name.Remove(0, 7);
             leaderboardText[3].text = "3rd: " + cars[carDistances.IndexOf(third)].name.Remove(0, 7);
             leaderboardText[4].text = "4th: " + cars[carDistances.IndexOf(fourth)].name.Remove(0, 7);
+            
         }
     }
 }

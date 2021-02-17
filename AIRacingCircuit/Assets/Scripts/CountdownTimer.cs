@@ -12,6 +12,8 @@ public class CountdownTimer : MonoBehaviour
     public GameObject racetimer;
     public GameObject leaderboard;
     public GameObject minimap;
+    public GameObject canvas;
+
    
     [SerializeField] Text CountdownText;
 
@@ -36,6 +38,7 @@ public class CountdownTimer : MonoBehaviour
             racetimer.SetActive(true);
             leaderboard.SetActive(true);
             minimap.SetActive(true);
+            canvas.SetActive(true);
         }
     }
 }
