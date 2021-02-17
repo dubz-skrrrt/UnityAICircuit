@@ -8,7 +8,8 @@ public class LeaderboardSystem : MonoBehaviour
 {
     public List<GameObject> cars = new List<GameObject>();
 
-    float first, second, third, fourth;
+    float first, second, third;
+    public float fourth;
     List<float> carDistances = new List<float>();
     List<float> orderedDistances = new List<float>();
     Text[] leaderboardText;

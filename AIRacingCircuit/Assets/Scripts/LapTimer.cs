@@ -7,10 +7,9 @@ public class LapTimer : MonoBehaviour
 {
     public int distanceInt;
     public bool finishedRace;
-    public int lap = 0;
     float time, totalTime;
     float mins, secs, millisecs;
-    
+    public int lap = 0;
     int prevLap = -1;
     
     GameObject raceTimer;
@@ -42,7 +41,7 @@ public class LapTimer : MonoBehaviour
             lap = (distanceInt) / 630;
 
             if(lap >= 3){
-                finishedRace = true;
+                this.finishedRace = true;
                 //this.gameObject.SetActive(false);
                 this.gameObject.GetComponentInChildren<LapTimer>().enabled = false;
 
@@ -53,7 +52,7 @@ public class LapTimer : MonoBehaviour
                 prevLap = lap;
                 time = 0f;
             }
-            
+            Debug.Log(lap);
         }
 
     }
