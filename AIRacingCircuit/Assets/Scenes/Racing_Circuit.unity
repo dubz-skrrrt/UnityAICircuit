@@ -34358,6 +34358,7 @@ MonoBehaviour:
   racetimer: {fileID: 1222844990}
   leaderboard: {fileID: 1515225584}
   minimap: {fileID: 471196164}
+  canvas: {fileID: 154904646}
   CountdownText: {fileID: 259730185}
 --- !u!1 &2037438170
 GameObject:
