@@ -19,10 +19,12 @@ public class CameraSwitch : MonoBehaviour {
         cameraThree.SetActive(false);
         cameraFour.SetActive(false);
     }
+
     void Update()
     {
         switchCamera();
     }
+    
     void switchCamera()
     {
         if (Input.GetKeyDown(KeyCode.D)){

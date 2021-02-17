@@ -37,6 +37,10 @@ public class LapTimer : MonoBehaviour
         if(tracker.progressDistance >= 630f){
             lap = ((int)tracker.progressDistance) / 630;
 
+            if(lap >= 3){
+                this.gameObject.SetActive(false);
+            }
+
             if(lap > prevLap){
                 lapTimeText[lap-1].GetComponent<Text>().text = "Lap " + (lap) + ": " + FormatTime(time);
                 prevLap = lap;
