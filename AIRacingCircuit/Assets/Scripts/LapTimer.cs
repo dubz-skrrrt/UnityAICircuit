@@ -18,6 +18,7 @@ public class LapTimer : MonoBehaviour
     void Start()
     {
         tracker = this.gameObject.GetComponent<UnityStandardAssets.Utility.WaypointProgressTracker>();
+        raceTimer = this.gameObject.transform.GetChild(8).gameObject;
         lapTimeText = raceTimer.GetComponentsInChildren<Text>();
         totalTimeText = lapTimeText[lapTimeText.Length - 1];
         raceTimer.SetActive(false);
