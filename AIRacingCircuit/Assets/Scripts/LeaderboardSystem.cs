@@ -29,6 +29,7 @@ public class LeaderboardSystem : MonoBehaviour
         foreach(GameObject car in cars){
             tracker = car.gameObject.GetComponent<UnityStandardAssets.Utility.WaypointProgressTracker>();
             carDistances[cars.IndexOf(car)] = tracker.progressDistance;
+            
         }
 
         orderedDistances = carDistances.OrderByDescending(i => i).ToList();
@@ -45,8 +46,10 @@ public class LeaderboardSystem : MonoBehaviour
             leaderboardText[4].text = "4th: " + cars[carDistances.IndexOf(fourth)].name.Remove(0, 7);
             
         }
-
+        DontDestroyOnLoad(this.gameObject);
+        
         winner = cars[carDistances.IndexOf(first)];
         Debug.Log(winner);
+
     }
 }

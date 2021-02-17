@@ -36115,6 +36115,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   distanceInt: 0
   finishedRace: 0
+  totalTime: 0
   lap: 0
 --- !u!1 &919132147919245761
 GameObject:
@@ -36187,6 +36188,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   distanceInt: 0
   finishedRace: 0
+  totalTime: 0
   lap: 0
 --- !u!1 &919132147963993947
 GameObject:
@@ -36259,6 +36261,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   distanceInt: 0
   finishedRace: 0
+  totalTime: 0
   lap: 0
 --- !u!1 &919132149160928249
 GameObject:
@@ -36331,6 +36334,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   distanceInt: 0
   finishedRace: 0
+  totalTime: 0
   lap: 0
 --- !u!4 &1278253905542331604
 Transform:

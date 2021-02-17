@@ -11,6 +11,7 @@ public class CheckCarLaps : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        DontDestroyOnLoad(this.gameObject);
         cars = GameObject.FindGameObjectsWithTag("Racecar");
     }
 
@@ -35,6 +36,7 @@ public class CheckCarLaps : MonoBehaviour
         if (carChecker == true){
             Debug.Log("Change");
             SceneManager.LoadScene("ResultUserInterface");
+            this.gameObject.GetComponent<CheckCarLaps>().enabled = false;
         }
     }
 }

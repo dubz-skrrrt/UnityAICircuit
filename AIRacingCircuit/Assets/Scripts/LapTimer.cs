@@ -7,7 +7,9 @@ public class LapTimer : MonoBehaviour
 {
     public int distanceInt;
     public bool finishedRace;
-    float time, totalTime;
+    public float totalTime;
+    float time;
+    
     float mins, secs, millisecs;
     public int lap = 0;
     int prevLap = -1;
