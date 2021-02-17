@@ -5582,18 +5582,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 543450651589217147}
     m_Modifications:
-    - target: {fileID: 815909199246174995, guid: 7dd8e060ebf71b94da22382b82a75a04, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 147.70001
-      objectReference: {fileID: 0}
-    - target: {fileID: 815909199794199479, guid: 7dd8e060ebf71b94da22382b82a75a04, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 49.000015
-      objectReference: {fileID: 0}
-    - target: {fileID: 815909199956821944, guid: 7dd8e060ebf71b94da22382b82a75a04, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 185.09998
-      objectReference: {fileID: 0}
     - target: {fileID: 815909200179190510, guid: 7dd8e060ebf71b94da22382b82a75a04, type: 3}
       propertyPath: m_Name
       value: Racetimer
@@ -5645,18 +5633,6 @@ PrefabInstance:
     - target: {fileID: 815909200179190511, guid: 7dd8e060ebf71b94da22382b82a75a04, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 815909200274217345, guid: 7dd8e060ebf71b94da22382b82a75a04, type: 3}
-      propertyPath: m_FontData.m_Font
-      value: 
-      objectReference: {fileID: 12800000, guid: 8a2b9e2a607dd2143b58c44bc32410b4, type: 3}
-    - target: {fileID: 815909200274217345, guid: 7dd8e060ebf71b94da22382b82a75a04, type: 3}
-      propertyPath: m_FontData.m_FontSize
-      value: 22
-      objectReference: {fileID: 0}
-    - target: {fileID: 815909201260882091, guid: 7dd8e060ebf71b94da22382b82a75a04, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 110.90002
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7dd8e060ebf71b94da22382b82a75a04, type: 3}
@@ -22774,8 +22750,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -140.3, y: -134.1}
-  m_SizeDelta: {x: 280.54752, y: 268.41394}
+  m_AnchoredPosition: {x: -136.06, y: -113.54}
+  m_SizeDelta: {x: 272.06216, y: 227.29254}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1309505521
 MonoBehaviour:
@@ -25035,18 +25011,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 543450651737873459}
     m_Modifications:
-    - target: {fileID: 815909199246174995, guid: 7dd8e060ebf71b94da22382b82a75a04, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 147.70001
-      objectReference: {fileID: 0}
-    - target: {fileID: 815909199794199479, guid: 7dd8e060ebf71b94da22382b82a75a04, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 49
-      objectReference: {fileID: 0}
-    - target: {fileID: 815909199956821944, guid: 7dd8e060ebf71b94da22382b82a75a04, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 185.09998
-      objectReference: {fileID: 0}
     - target: {fileID: 815909200179190510, guid: 7dd8e060ebf71b94da22382b82a75a04, type: 3}
       propertyPath: m_Name
       value: Racetimer
@@ -25098,18 +25062,6 @@ PrefabInstance:
     - target: {fileID: 815909200179190511, guid: 7dd8e060ebf71b94da22382b82a75a04, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 815909200274217345, guid: 7dd8e060ebf71b94da22382b82a75a04, type: 3}
-      propertyPath: m_FontData.m_Font
-      value: 
-      objectReference: {fileID: 12800000, guid: 8a2b9e2a607dd2143b58c44bc32410b4, type: 3}
-    - target: {fileID: 815909200274217345, guid: 7dd8e060ebf71b94da22382b82a75a04, type: 3}
-      propertyPath: m_FontData.m_FontSize
-      value: 22
-      objectReference: {fileID: 0}
-    - target: {fileID: 815909201260882091, guid: 7dd8e060ebf71b94da22382b82a75a04, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 110.90002
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7dd8e060ebf71b94da22382b82a75a04, type: 3}
@@ -30758,18 +30710,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 543450653701224771}
     m_Modifications:
-    - target: {fileID: 815909199246174995, guid: 7dd8e060ebf71b94da22382b82a75a04, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 147.70001
-      objectReference: {fileID: 0}
-    - target: {fileID: 815909199794199479, guid: 7dd8e060ebf71b94da22382b82a75a04, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 49.000015
-      objectReference: {fileID: 0}
-    - target: {fileID: 815909199956821944, guid: 7dd8e060ebf71b94da22382b82a75a04, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 185.09998
-      objectReference: {fileID: 0}
     - target: {fileID: 815909200179190510, guid: 7dd8e060ebf71b94da22382b82a75a04, type: 3}
       propertyPath: m_Name
       value: Racetimer
@@ -30821,18 +30761,6 @@ PrefabInstance:
     - target: {fileID: 815909200179190511, guid: 7dd8e060ebf71b94da22382b82a75a04, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 815909200274217345, guid: 7dd8e060ebf71b94da22382b82a75a04, type: 3}
-      propertyPath: m_FontData.m_Font
-      value: 
-      objectReference: {fileID: 12800000, guid: 8a2b9e2a607dd2143b58c44bc32410b4, type: 3}
-    - target: {fileID: 815909200274217345, guid: 7dd8e060ebf71b94da22382b82a75a04, type: 3}
-      propertyPath: m_FontData.m_FontSize
-      value: 22
-      objectReference: {fileID: 0}
-    - target: {fileID: 815909201260882091, guid: 7dd8e060ebf71b94da22382b82a75a04, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 110.90002
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7dd8e060ebf71b94da22382b82a75a04, type: 3}
@@ -31904,18 +31832,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 543450651703199201}
     m_Modifications:
-    - target: {fileID: 815909199246174995, guid: 7dd8e060ebf71b94da22382b82a75a04, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 147.70001
-      objectReference: {fileID: 0}
-    - target: {fileID: 815909199794199479, guid: 7dd8e060ebf71b94da22382b82a75a04, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 49.000015
-      objectReference: {fileID: 0}
-    - target: {fileID: 815909199956821944, guid: 7dd8e060ebf71b94da22382b82a75a04, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 185.09998
-      objectReference: {fileID: 0}
     - target: {fileID: 815909200179190510, guid: 7dd8e060ebf71b94da22382b82a75a04, type: 3}
       propertyPath: m_Name
       value: Racetimer
@@ -31967,18 +31883,6 @@ PrefabInstance:
     - target: {fileID: 815909200179190511, guid: 7dd8e060ebf71b94da22382b82a75a04, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 815909200274217345, guid: 7dd8e060ebf71b94da22382b82a75a04, type: 3}
-      propertyPath: m_FontData.m_Font
-      value: 
-      objectReference: {fileID: 12800000, guid: 8a2b9e2a607dd2143b58c44bc32410b4, type: 3}
-    - target: {fileID: 815909200274217345, guid: 7dd8e060ebf71b94da22382b82a75a04, type: 3}
-      propertyPath: m_FontData.m_FontSize
-      value: 22
-      objectReference: {fileID: 0}
-    - target: {fileID: 815909201260882091, guid: 7dd8e060ebf71b94da22382b82a75a04, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 110.900024
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7dd8e060ebf71b94da22382b82a75a04, type: 3}
@@ -34454,7 +34358,6 @@ MonoBehaviour:
   racetimer: {fileID: 1222844990}
   leaderboard: {fileID: 1515225584}
   minimap: {fileID: 471196164}
-  canvas: {fileID: 154904646}
   CountdownText: {fileID: 259730185}
 --- !u!1 &2037438170
 GameObject:
