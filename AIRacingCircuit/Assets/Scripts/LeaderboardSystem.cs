@@ -7,9 +7,8 @@ using UnityEngine.UI;
 public class LeaderboardSystem : MonoBehaviour
 {
     public List<GameObject> cars = new List<GameObject>();
-
-    float first, second, third;
-    public float fourth;
+    public GameObject winner;
+    float first, second, third, fourth;
     List<float> carDistances = new List<float>();
     List<float> orderedDistances = new List<float>();
     Text[] leaderboardText;
@@ -46,5 +45,8 @@ public class LeaderboardSystem : MonoBehaviour
             leaderboardText[4].text = "4th: " + cars[carDistances.IndexOf(fourth)].name.Remove(0, 7);
             
         }
+
+        winner = cars[carDistances.IndexOf(first)];
+        Debug.Log(winner);
     }
 }

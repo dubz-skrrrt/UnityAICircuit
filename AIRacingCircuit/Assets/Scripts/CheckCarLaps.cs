@@ -23,7 +23,7 @@ public class CheckCarLaps : MonoBehaviour
     void CheckFinishedLaps(){
         for (var i =0; i < cars.Length; i++){
             Debug.Log(cars[i].name + cars[i].GetComponent<LapTimer>().finishedRace);
-            if (cars[i].GetComponent<LapTimer>().lap == 3){
+            if (cars[i].GetComponent<LapTimer>().lap == 1){
                 if (cars[i].GetComponent<LapTimer>().finishedRace){
                     carChecker = true;
                 }else{
