@@ -11,13 +11,21 @@ public class CameraSwitch : MonoBehaviour {
     public GameObject TimerTwo;
     public GameObject TimerThree;
     public GameObject TimerFour;
-
+    public GameObject carOne;
+    public GameObject carTwo;
+    public GameObject carThree;
+    public GameObject carFour;
     int pressnum = 0;
     void Start(){
         cameraOne.SetActive(true);
         cameraTwo.SetActive(false);
         cameraThree.SetActive(false);
         cameraFour.SetActive(false);
+
+        carOne.SetActive(true);
+        carTwo.SetActive(false);
+        carThree.SetActive(false);
+        carFour.SetActive(false);
     }
 
     void Update()
@@ -39,6 +47,10 @@ public class CameraSwitch : MonoBehaviour {
                 TimerTwo.SetActive(true);
                 TimerThree.SetActive(false);
                 TimerFour.SetActive(false);
+                carOne.SetActive(false);
+                carTwo.SetActive(true);
+                carThree.SetActive(false);
+                carFour.SetActive(false);
             }
             else if (pressnum == 2){
                 StartCoroutine(TimeCoroutine());
@@ -50,6 +62,11 @@ public class CameraSwitch : MonoBehaviour {
                 TimerTwo.SetActive(false);
                 TimerThree.SetActive(true);
                 TimerFour.SetActive(false);
+
+                carOne.SetActive(false);
+                carTwo.SetActive(false);
+                carThree.SetActive(true);
+                carFour.SetActive(false);
             }
             else if (pressnum == 3){
                 StartCoroutine(TimeCoroutine());
@@ -61,6 +78,11 @@ public class CameraSwitch : MonoBehaviour {
                 TimerTwo.SetActive(false);
                 TimerThree.SetActive(false);
                 TimerFour.SetActive(true);
+
+                carOne.SetActive(false);
+                carTwo.SetActive(false);
+                carThree.SetActive(false);
+                carFour.SetActive(true);
             }
             else if (pressnum > 3){
                 pressnum = 3;   
@@ -78,6 +100,11 @@ public class CameraSwitch : MonoBehaviour {
                 TimerTwo.SetActive(false);
                 TimerThree.SetActive(false);
                 TimerFour.SetActive(false);
+
+                carOne.SetActive(true);
+                carTwo.SetActive(false);
+                carThree.SetActive(false);
+                carFour.SetActive(false);
             }
             else if (pressnum == 1){
                 StartCoroutine(TimeCoroutine());
@@ -89,6 +116,11 @@ public class CameraSwitch : MonoBehaviour {
                 TimerTwo.SetActive(true);
                 TimerThree.SetActive(false);
                 TimerFour.SetActive(false);
+
+                carOne.SetActive(false);
+                carTwo.SetActive(true);
+                carThree.SetActive(false);
+                carFour.SetActive(false);
                 
             }
             else if (pressnum == 2){
@@ -101,6 +133,11 @@ public class CameraSwitch : MonoBehaviour {
                 TimerTwo.SetActive(false);
                 TimerThree.SetActive(true);
                 TimerFour.SetActive(false);
+
+                 carOne.SetActive(false);
+                carTwo.SetActive(false);
+                carThree.SetActive(true);
+                carFour.SetActive(false);
             }
             else if (pressnum < 0){
                 pressnum = 0;   
