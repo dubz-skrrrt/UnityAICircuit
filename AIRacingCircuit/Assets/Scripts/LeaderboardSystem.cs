@@ -52,7 +52,5 @@ public class LeaderboardSystem : MonoBehaviour
         }
         
         winner = cars[carDistances.IndexOf(first)];
-        Debug.Log(winner);
-
     }
 }

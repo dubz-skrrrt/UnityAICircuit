@@ -42,9 +42,8 @@ public class LapTimer : MonoBehaviour
         if(distanceInt >= 630){
             lap = (distanceInt) / 630;
 
-            if(lap >= 1){
+            if(lap >= 3){
                 this.finishedRace = true;
-                //this.gameObject.SetActive(false);
                 this.gameObject.GetComponentInChildren<LapTimer>().enabled = false;
                 tracker.enabled = false;
                 this.gameObject.GetComponentInChildren<FollowGoal>().enabled = false;

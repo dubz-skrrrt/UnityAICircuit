@@ -20,12 +20,6 @@ public class ResultsOfRace : MonoBehaviour
         winnerTime.text = FormatTime(timeResult);
     }
 
-    // public void RestartScene(){
-    //     Destroy(firstPlace);
-    //     Destroy(cars);
-    //     SceneManager.LoadScene("Racing_Circuit");
-    // }
-
     string FormatTime(float t){
         mins = Mathf.FloorToInt(t / 60);
         secs = Mathf.FloorToInt(t % 60);
