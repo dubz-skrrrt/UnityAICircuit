@@ -1364,7 +1364,7 @@ GameObject:
   - component: {fileID: 2132686062141928360}
   m_Layer: 0
   m_Name: Canvas_Scoreboard
-  m_TagString: Untagged
+  m_TagString: Results
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1381,6 +1381,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 953a4d4c982275f47a70a25816021f24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  firstPlace: {fileID: 0}
+  cars: {fileID: 0}
   winnerName: {fileID: 726156118}
   winnerTime: {fileID: 1620164316}
 --- !u!223 &2132686062141928378

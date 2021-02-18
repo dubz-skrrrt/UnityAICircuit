@@ -46,6 +46,8 @@ public class LapTimer : MonoBehaviour
                 this.finishedRace = true;
                 //this.gameObject.SetActive(false);
                 this.gameObject.GetComponentInChildren<LapTimer>().enabled = false;
+                tracker.enabled = false;
+                this.gameObject.GetComponentInChildren<FollowGoal>().enabled = false;
 
             }
 

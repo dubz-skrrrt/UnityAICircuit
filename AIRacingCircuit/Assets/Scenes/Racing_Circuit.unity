@@ -2976,7 +2976,7 @@ GameObject:
   - component: {fileID: 157965508}
   m_Layer: 0
   m_Name: Cars
-  m_TagString: Untagged
+  m_TagString: CarList
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36203,7 +36203,7 @@ GameObject:
   - component: {fileID: 919132147963993949}
   - component: {fileID: 919132147963993950}
   m_Layer: 0
-  m_Name: raceCarOrange
+  m_Name: raceCarYellow
   m_TagString: Racecar
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

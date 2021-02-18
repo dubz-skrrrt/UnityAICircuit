@@ -11,6 +11,8 @@ TagManager:
   - trackPath
   - Racecar
   - Carholder
+  - CarList
+  - Results
   layers:
   - Default
   - TransparentFX

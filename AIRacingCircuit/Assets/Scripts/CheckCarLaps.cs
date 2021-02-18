@@ -6,13 +6,15 @@ using UnityEngine.SceneManagement;
 public class CheckCarLaps : MonoBehaviour
 {
     public GameObject[] cars;
-     bool carChecker;
+    bool carChecker;
+
+    public bool fin;
 
     // Start is called before the first frame update
     void Start()
     {
-        DontDestroyOnLoad(this.gameObject);
         cars = GameObject.FindGameObjectsWithTag("Racecar");
+        
     }
 
     // Update is called once per frame
@@ -35,7 +37,10 @@ public class CheckCarLaps : MonoBehaviour
         }
         if (carChecker == true){
             Debug.Log("Change");
+            fin = true;
             SceneManager.LoadScene("ResultUserInterface");
+            DontDestroyOnLoad(this.gameObject);
+            
             this.gameObject.GetComponent<CheckCarLaps>().enabled = false;
         }
     }
